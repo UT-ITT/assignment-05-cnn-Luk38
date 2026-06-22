@@ -19,5 +19,6 @@ Steuerung:
 - dislike (Daumen runter) = Volume Down
 - stop (Handfläche zeigen) = Start/stop
 - two_up (Zwei finger zusammen hoch) = next
+- Mit Q kann man das Fenster schließen und Programm beenden
 
 Falls die Erkennung nicht gut funktioniert, dann am besten einen weißen Hintergrund nehmen oder die Geste länger ausführen und die Hand anders positionieren.
