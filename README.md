@@ -9,3 +9,15 @@ Ich habe mit dem notebook aus Aufgabe 1 "hyperparameters.ipynb" ein model auf li
 Die Bilder habe ich wie in dem HaGRID Subset im Ordner angeordnet und auch die Annotations zusammen geschrieben zur selben condition sodass ich den code aus dem alten notebook zum laden der neuen Bilder und annotations übernehmen konnte und aus diesen dann das neue testset erstellt habe.
 
 # 3. Gesture-based Media Controls
+Das Programm starten und Handgeste im grünen Rechteck ausführen, dieser frame wird für das model wie im training resized und darauf eine Geste predicted. 
+Je nach Geste wird ein Media Player Befehl/Tastendruck ausgeführt. Es wird nur alle 1,5 Sekunden und mit einer ziemlich sicheren Prediction ein Befehl ausgeführt um spamming zu vermeiden, no gesture gibt es auch.
+
+Das Modell habe ich mit dem notebook aus der Vorlesung trainiert und im Ordner gespeichert, es wird im Programm geladen. Ich habe auch vgg ausprobiert und fand es besser.
+
+Steuerung: 
+- like (Daumen Hoch) = Volume up
+- dislike (Daumen runter) = Volume Down
+- stop (Handfläche zeigen) = Start/stop
+- two_up (Zwei finger zusammen hoch) = next
+
+Falls die Erkennung nicht gut funktioniert, dann am besten einen weißen Hintergrund nehmen oder die Geste länger ausführen und die Hand anders positionieren.
