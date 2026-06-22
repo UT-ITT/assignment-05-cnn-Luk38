@@ -1,1 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OcE5Fe4c)
+
+# 1. Exploring Hyperparameters
+Ich habe die Aufgabe innerhalb des Notebooks "hyperparameters.ipynb" geschrieben. Für 4 verschiedene Kernel sizes wird jeweils ein neues Modell trainiert, die prediction accuracy und inference time for predictions gemessen und in den nächsten Zellen geplottet, die Plots habe ich auch nochmal im Ordner unter "kernel_size_vs_accuracy.png" und "kernel_size_vs_inference_time.png" gespeichert und im Notebook diskutiert.
