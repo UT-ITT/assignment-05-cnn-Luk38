@@ -5,7 +5,7 @@ from pynput.keyboard import Controller, Key
 import time
 
 # include only those gestures
-CONDITIONS = ['like', 'no_gesture', 'stop', 'dislike', 'two_up'] # make sure to include the "no gesture" class if you have it in your dataset
+CONDITIONS = ['like', 'no_gesture', 'stop', 'dislike', 'two_up']
 
 # image size
 IMG_SIZE = 64
