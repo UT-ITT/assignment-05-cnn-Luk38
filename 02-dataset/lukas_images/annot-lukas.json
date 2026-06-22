@@ -1,0 +1,68 @@
+{
+    "rock":
+    {
+        "bboxes":
+        [
+            [
+                0.1254,
+                0.4032,
+                0.2042,
+                0.2050
+            ]
+        ],
+        "labels":
+        [
+            "rock"
+        ],
+        "landmarks":
+        [
+        ],
+        "leading_conf": 1.0,
+        "leading_hand": "right",
+        "user_id": ""
+    },
+    "peace":
+    {
+        "bboxes":
+        [
+            [
+                0.7575,
+                0.3885,
+                0.2087,
+                0.2241
+            ]
+        ],
+        "labels":
+        [
+            "peace"
+        ],
+        "landmarks":
+        [
+        ],
+        "leading_conf": 1.0,
+        "leading_hand": "left",
+        "user_id": ""
+    },
+    "like":
+    {
+        "bboxes":
+        [
+            [
+                0.3226,
+                0.5006,
+                0.2439,
+                0.2094
+            ]
+        ],
+        "labels":
+        [
+            "like"
+        ],
+        "landmarks":
+        [
+        ],
+        "leading_conf": 1.0,
+        "leading_hand": "right",
+        "user_id": ""
+    }
+}
